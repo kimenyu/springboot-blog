@@ -10,4 +10,9 @@ public interface BlogService {
 
     public List<Blog> getAllBlogs();
 
+    public Blog fetchById(Long blogId);
+
+    public Blog updateBlog(Long blogId, Blog blog);
+
+    public void deleteBlogById(Long blogId);
 }
